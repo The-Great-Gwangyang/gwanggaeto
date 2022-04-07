@@ -4,6 +4,10 @@
 
 ## Version Control System
 
+- < History of Version Control >
+  
+  ![](./image/historyofvcs.jpeg)
+
 ### 1. 클라이언트-서버 모델
 
 - 하나의 중앙 서버가 존재하며, 여러 클라이언트들은 중앙 서버에서 각자 맡은 파트만 가져와서 작업하고, 다시 중앙으로 통합하는 모델
@@ -31,5 +35,5 @@
 | 작업 내용 복구   | 다소 불편함                     | 예전 리비전으로 복구 편리                 |
 | 브렌치 생성      | 다소 불편함                     | 브렌치 생성 및 태그 생성 편리             |
 
-
+- 참고 사이트 : https://vntgcorp.github.io/Git/
 
