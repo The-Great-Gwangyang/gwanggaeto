@@ -1,4 +1,12 @@
-### 4. Git 이력을 발전, 표시, 수정
+# Git
+
+---
+
+## Git에 대해서
+
+### Git 용어
+
+#### 4. Git 이력을 발전, 표시, 수정
 
 - branch : branch들을 열거하고, 생성하고, 삭제
 
@@ -79,7 +87,7 @@ git commit -m "[메세지]"
 
 ```zsh
 # rebase merging
-# merge 후 하나의 parent만 가짐
+# merge 후 각 commit은 하나의 parent만 가짐
 git checkout [합칠 branch]
 git rebase [base branch]
 git checkout [base branch]
@@ -140,30 +148,31 @@ git tag -l [특정 tag 조건]
 git ls-remote --tags
 ```
 
-### 5. 협업
+#### 5. 협업
 
-![](./image/R1280x0.jpeg)
+![git process](./image/R1280x0.jpeg)
 
 - fetch : 다른 repository로부터 객체, 참조 다운로드
 
 ```zsh
-# git fetch
+# 원격 저장소와 commit 업데이트
 git fetch
 ```
 
 - pull : 다른 repository 또는 로컬 branch와 통합
 
 ```zsh
-# git pull
+# 원격 저장소와 동기화
 git pull
 ```
 
 - push : 원격 저장소에 로컬의 commit을 update
 
 ```zsh
-# git push
+# 원격 저장소에 로컬 기록 update
 git push
 ```
 
 - git merge 참고 url : https://velog.io/@injoon2019/Git-Merge-종류
+- git merge 참고 url2 : https://im-developer.tistory.com/182
 
