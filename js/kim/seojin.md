@@ -5,8 +5,9 @@
 
 |                                   | 학습 내용                                                         |
 | :-------------------------------: | :----------------------------------------------------------- |
-| 1주차<br />(22.03.11 ~ 21.03.24)  | [실행 컨텍스트, hositing, scope](https://szzii.notion.site/hositing-scope-3fb5e84a944a4da693cdf3ff3bf2f53b)|
-| 2주차<br />(22.03.26 ~ 22.04.07)  |  |
+| 1<br />(22.03.24)  | [실행 컨텍스트, hositing, scope](https://szzii.notion.site/hositing-scope-3fb5e84a944a4da693cdf3ff3bf2f53b)|
+| 2<br />(22.04.07)  |  |
+| 3<br />(22.04.27)  | [콜백함수] (https://www.notion.so/szzii/68007601aea6487bbbda4652aebb4037) |
 
 ------
 
