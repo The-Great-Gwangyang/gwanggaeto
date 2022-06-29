@@ -9,6 +9,9 @@
 | 1회차<br />(22.03.24)  | [실행 컨텍스트, hositing, scope](https://szzii.notion.site/hositing-scope-3fb5e84a944a4da693cdf3ff3bf2f53b)|
 | 2회차<br />(22.04.07)  |  |
 | 3회차<br />(22.04.27)  | [콜백함수](https://szzii.notion.site/68007601aea6487bbbda4652aebb4037) |
+| 4,5회차<br />(22.05.27)  | [클로저, 프로토타입](https://szzii.notion.site/05c38e7a7d4e4e5cb62fc513dcea4754)
+| 6,7회차<br />(22.06.30)  | [jvm 메모리 구조](https://szzii.notion.site/JVM-fd978f72d0a7475e97af4b5d9a50cdf4)|
+
 
 ------
 
