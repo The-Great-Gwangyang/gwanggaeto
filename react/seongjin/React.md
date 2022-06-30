@@ -197,6 +197,67 @@ export default App;
 
 
 
+
+
+클래스형 추가
+
+Hello.js
+
+```react
+import React, { Component } from 'react';
+
+class Hello extends Component {
+  render() {
+    const { color, name} = this.props;
+    return (
+      <div style={{ color }}>
+        안녕하세요 {name}
+      </div>
+    );
+  }
+}
+
+Hello.defaultProps = {
+  name: '이름없음'
+};
+
+export default Hello;
+```
+
+App.js
+
+```react
+import React, {Component} from 'react';
+import Hello from './Hello';
+
+class App extends Component {
+  render() {
+    return (
+    	<>
+      		<Hello name="react" color="red"/>
+      		<Hello color="pink"/>
+   		</>
+    );
+  }
+} 
+
+export default App;
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ![image-20220615021311556](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220615021311556.png)
 
 
@@ -222,6 +283,73 @@ export default App;
 
 
 
-함수형 vs 클래스
+## State
 
-State
+-> props처럼 컴포넌트의 렌더링 결과물에 영향을 주는 데이터를 갖는 객체로, props는 컴포넌트에 전달되는 반면 state는 컴포넌트 안에서 관리가 된다.
+
+
+
+```react
+import React, {Component} from 'react';
+
+class Counter extends Component{
+
+    constructor(props){
+        super(props); // constructor 정의 시 반드시 필요
+        this.state = { // state의 초기화
+            number:0
+        };
+    }
+
+    render(){
+
+        const { number } = this.state;
+        return (
+            <div>
+                <h1>{number}</h1>
+                <button
+                    onClick={()=>{
+                        this.setState({number : number+1})
+                    }}
+                >
+                    +1
+                </button>
+            </div>
+        );
+    }
+}
+
+export default Counter;
+```
+
+
+
+
+
+
+
+## 함수형 vs 클래스
+
+
+
+클래스:
+
+react 기능을 전부 사용할 수 있다.
+
+복잡하다
+
+
+
+함수:
+
+함수문법만 알면 사용 가능하다.
+
+react기능에 제한적이다. ( 컴포넌트 내부에서 만들어 사용하는 state불가 )
+
+
+
+
+
+
+
+## hooks
