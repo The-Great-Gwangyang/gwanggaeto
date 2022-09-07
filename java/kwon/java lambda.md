@@ -103,6 +103,12 @@ public static void main (String[] args){
 
 - 기존 & Lambda식 비교
 ```Java
+@FunctionalInterface
+interface MyLambdaFunction {
+    int max(int a, int b);
+}
+```
+```Java
 public class Lambda {
     public static void main(String[] args) {
         // 기존의 익명함수
@@ -114,13 +120,7 @@ public class Lambda {
     }
 }
 ```
-
 ```Java
-@FunctionalInterface
-interface MyLambdaFunction {
-    int max(int a, int b);
-}
-
 public class Lambda {
     public static void main(String[] args) {
         // 람다식을 이용한 익명함수
