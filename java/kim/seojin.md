@@ -7,7 +7,7 @@
 |                                   | 학습 내용                                                         |
 | :-------------------------------: | :----------------------------------------------------------- |
 | 6,7회차<br />(22.06.30)  | [jvm 메모리 구조](https://szzii.notion.site/JVM-fd978f72d0a7475e97af4b5d9a50cdf4)|
-| 8, 9회차<br />(22.10.7)  | [Spring IoC/DI](https://szzii.notion.site/Spring-IoC-DI-27259e98bda24fd4a21d92a7fb5f9c3f)|
+| 8, 9회차<br />(22.09.08)  | [Spring IoC/DI](https://szzii.notion.site/Spring-IoC-DI-27259e98bda24fd4a21d92a7fb5f9c3f)|
 | 10, 11회차<br />(22.10.25) | [C++ 기초](https://szzii.notion.site/C-e942622c264f461fa50d5c3a7f2e8a9a) |
 
 ------
